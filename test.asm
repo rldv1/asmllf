@@ -18,7 +18,7 @@ _start:
     mov edx, 0
     call SetFilePointer
 
-    # no more sisi
+    ; no more sisi
     mov ecx, buffer
     mov edx, 512
     mov eax, 0
